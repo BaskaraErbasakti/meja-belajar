@@ -29,7 +29,7 @@
           maxlength="100"
         />
       </div>
-      <button class="kirim border-0">
+      <button class="kirim border-0" @click="cita()">
         Kirim
       </button>
     </div>
@@ -38,7 +38,12 @@
 
 <script>
 export default {
-
+  methods: {
+    cita () {
+      alert('Semoga cita citamu tercapai... Aamiin')
+      this.$router.push('/')
+    }
+  }
 }
 </script>
 

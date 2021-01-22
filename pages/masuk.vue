@@ -14,7 +14,21 @@
         </div>
         <div class="form-group d-flex flex-column">
           <label class="labeling" for="umur">Umur mu</label>
-          <input id="umur" class="kotak border-0 pl-3" type="text">
+          <div>
+            <p class="umur">
+              {{ value }} tahun
+            </p>
+            <div class="slidecontainer">
+              <input
+                id="myRange"
+                v-model="value"
+                type="range"
+                min="15"
+                max="20"
+                class="slider"
+              >
+            </div>
+          </div>
         </div>
         <div class="form-group d-flex flex-column">
           <label class="labeling" for="kelamin">Jenis Kelamin</label>
@@ -41,7 +55,11 @@
 
 <script>
 export default {
-
+  data () {
+    return {
+      value: '17'
+    }
+  }
 }
 </script>
 
@@ -133,15 +151,50 @@ export default {
   grid-template-columns: 49% 49%;
   grid-column-gap: 2%;
 }
+.slidecontainer {
+  width: 100%;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #BBF4FA;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #2196F3;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #2196F3;
+  cursor: pointer;
+}
+.umur {
+  font-size: 22px;
+}
 @media (max-width: 575.98px) {
   .confirm {
     display: none;
   }
   .wadah {
     display: flex;
+    flex-direction: column;
   }
   .title {
     font-size: 40px;
+    text-align: center;
   }
   .labeling {
     font-size: 25px;

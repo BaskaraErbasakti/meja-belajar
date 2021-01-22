@@ -3,7 +3,7 @@
     <Navbar />
     <Nuxt />
     <div class="spasi container d-flex justify-content-center pb-4">
-      <p>
+      <p class="text-center">
         Made with️❤️in SMG © 2021 Baskara Erbasakti. App icon by <span><a target="_blank" href="https://icons8.com">Icons8</a></span>
       </p>
     </div>
