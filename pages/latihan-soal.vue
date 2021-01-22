@@ -27,7 +27,7 @@
           </div>
         </NuxtLink>
       </div>
-      <div>
+      <div class="gambar">
         <img class="exam" src="../assets/undraw_exams_g4ow.svg" alt="exams" width="520px;" height="425px;">
       </div>
     </div>
@@ -69,17 +69,23 @@ export default {
 }
 @media (max-width: 575.98px) {
   .poin {
-    flex-wrap: wrap;
+    flex-direction: column;
     margin-top: 10px;
   }
   .exam {
     width: 315px;
   }
   .judul {
+    text-align: center;
     font-size: 40px;
   }
   h3 {
     font-size: 20px;
+  }
+  .gambar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 </style>

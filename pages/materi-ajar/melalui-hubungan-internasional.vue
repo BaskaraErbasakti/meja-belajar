@@ -6,7 +6,7 @@
       </h1>
     </div>
     <div class="d-flex justify-content-center">
-      <img class="gambar" src="../../assets/Hubungan-internasional.jpg" alt="Hubungan-internasional">
+      <img class="gambar img-fluid" src="../../assets/Hubungan-internasional.jpg" alt="Hubungan-internasional">
     </div>
     <div>
       <h3>Makna Hubungan Internasional</h3>
@@ -153,8 +153,9 @@ li {
 }
 @media (max-width: 575.98px) {
   .gambar {
-    width: 300px;
-    height: 100px;
+    height: 70%;
+    margin-top: 25px;
+    margin-bottom: 30px;
   }
   .kotak {
     margin-left: 0px;

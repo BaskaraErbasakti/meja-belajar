@@ -1,6 +1,6 @@
 <template>
   <div class="mt-4">
-    <div class="container d-flex flex-wrap justify-content-between">
+    <div class="judul container">
       <h1 class="title d-flex align-items-center">
         Tentang Kami
       </h1>
@@ -119,6 +119,10 @@ export default {
   font-weight: normal;
   font-size: 24px;
 }
+.judul {
+  display: flex;
+  justify-content: space-between;
+}
 
 @media (max-width: 575.98px) {
   .title {
@@ -135,6 +139,10 @@ export default {
   }
   .par1 {
     margin-left: 10px;
+  }
+  .judul {
+    flex-direction: column;
+    align-items: center;
   }
 }
 </style>

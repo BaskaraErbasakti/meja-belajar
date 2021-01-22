@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="d-flex flex-wrap">
+    <div class="footer">
       <div class="mli d-flex flex-column justify-content-center align-items-center">
         <h3 class="cita">
           Kejar Mimpimu dan
@@ -17,7 +17,9 @@
           </button>
         </NuxtLink>
       </div>
-      <img class="winners img-fluid" src="../assets/undraw_winners_ao2o.svg" alt="winners" width="769px" height="440px">
+      <div>
+        <img class="winners" src="../assets/undraw_winners_ao2o.svg" alt="winners" width="769px" height="440px">
+      </div>
     </div>
     <div class="spirit container text-center">
       <h2 class="quote">
@@ -70,6 +72,9 @@ button {
 .green {
   color: #22A6B3;
 }
+.footer {
+  display: flex;
+}
 @media (max-width: 575.98px) {
   .mli {
     margin-left: 40px;
@@ -82,12 +87,17 @@ button {
     margin-top: 20px;
     margin-left: 25px;
     width: 320px;
+    height: 190px;
   }
   .quote {
     font-size: 40px;
   }
   .spirit {
     margin-top: 20px;
+  }
+  .footer {
+    flex-direction: column;
+    text-align: center;
   }
 }
 </style>

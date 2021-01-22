@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # belajar-nuxtjs
 
 ## Build Setup
@@ -18,3 +19,6 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+=======
+# meja-belajar
+>>>>>>> 81fb9e7fab4d104b2d723bd809e608649c43b185

@@ -12,8 +12,8 @@
           Tetap fokus pada tujuan mu dan raihlah cita-cita terbesarmu, motifasi terbesar adalah dirimu sendiri. <span class="kuning">Aku bisa, Pasti Bisa, Selalu Bisa.</span>
         </p>
       </div>
-      <div>
-        <img class="finish" src="../assets/undraw_finish_line_katerina_limpitsouni_xy20.svg" alt="finish-line" width="539px;" height="359px;">
+      <div class="d-flex justify-content-center">
+        <img class="finish" src="../assets/undraw_finish_line_katerina_limpitsouni_xy20.svg" alt="finish-line">
       </div>
     </div>
     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -23,7 +23,7 @@
       <div>
         <textarea
           id="cita"
-          class="kolom border-0"
+          class="kolom border-0 form-floating"
           cols="30"
           rows="10"
           maxlength="100"
@@ -99,9 +99,14 @@ export default {
     font-size: 30px;
     margin-top: 2.5rem;
 }
+.finish {
+  width: 539px;
+  height: 359px;
+}
 @media (max-width: 575.98px) {
   .kotak-1 {
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
   .kotak {
     margin-top: 10px;
@@ -116,18 +121,22 @@ export default {
   .parap {
     font-size: 20px;
   }
-  .finish {
-    height: auto;
-    width: 300px;
+  .kolom{
+    width: 100%;
   }
-  .kolom {
-    height: 230px;
-    width: 300px;
+  .finish {
+    max-width: 80%;
+    height: 100%;
   }
   .kirim {
     font-size: 25px;
     height: 50px;
     width: 150px;
+    margin-top: 20px;
+  }
+  .isian {
+    margin-top: 50px;
+    text-align: center;
   }
 }
 </style>

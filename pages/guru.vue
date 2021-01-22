@@ -60,17 +60,21 @@ export default {
 }
 @media (max-width: 575.98px) {
   .kotak {
-    flex-wrap: wrap;
-    margin-left: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
     margin-top: 10px;
+    margin-right: 0px;
   }
   .hai {
     font-size: 3rem;
   }
   .sub {
     font-size: 1.5rem;
+    margin-bottom: 30px;
   }
   .parap {
+    text-align: center;
     font-size: 1.25rem;
   }
   .eva {
