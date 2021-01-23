@@ -9,19 +9,19 @@
       </h1>
       <form class="spasi2">
         <div class="form-group d-flex flex-column">
-          <label class="labeling" for="nama">Nama mu</label>
-          <input id="nama" class="kotak border-0 pl-3" type="text">
+          <label class="labeling" for="nama">Nama Lengkap</label>
+          <input id="nama" v-model="masuk.nama" class="kotak border-0 pl-3" type="text">
         </div>
         <div class="form-group d-flex flex-column">
-          <label class="labeling" for="umur">Umur mu</label>
+          <label class="labeling" for="umur">Umur</label>
           <div>
             <p class="umur">
-              {{ value }} tahun
+              {{ masuk.umur }} tahun
             </p>
             <div class="slidecontainer">
               <input
-                id="myRange"
-                v-model="value"
+                id="umur"
+                v-model="masuk.umur"
                 type="range"
                 min="15"
                 max="20"
@@ -34,21 +34,28 @@
           <label class="labeling" for="kelamin">Jenis Kelamin</label>
           <div class="d-flex justify-content-around">
             <label class="containers">Laki-laki
-              <input type="radio" checked="checked" name="radio">
+              <input
+                id="kelamin"
+                v-model="masuk.jenis"
+                type="radio"
+                checked="checked"
+                name="radio"
+                value="Laki-laki"
+              >
               <span class="checkmark" />
             </label>
             <label class="containers">Perempuan
-              <input type="radio" name="radio">
+              <input id="kelamin" v-model="masuk.jenis" type="radio" name="radio" value="Perempuan">
               <span class="checkmark" />
             </label>
           </div>
         </div>
-        <div class="d-flex justify-content-center">
-          <button class="tombol border-0">
-            Masuk
-          </button>
-        </div>
       </form>
+      <div class="d-flex justify-content-center">
+        <button class="tombol border-0" @click="writeToFirestore">
+          Masuk
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -57,7 +64,31 @@
 export default {
   data () {
     return {
-      value: '17'
+      masuk: {
+        nama: '',
+        umur: 17,
+        jenis: 'Laki-laki',
+        waktu: new Date(Date.now()).toString()
+      }
+    }
+  },
+  methods: {
+    writeToFirestore () {
+      const identitas = {
+        nama: this.masuk.nama,
+        umur: this.masuk.umur,
+        jenis: this.masuk.jenis,
+        waktu: this.masuk.waktu
+      }
+      this.$fire.firestore.collection('data').doc().set(identitas)
+        .then(() => {
+          alert('Terimakasih sudah mengisi data diri')
+          this.$router.push('/')
+        })
+        .catch((e) => {
+          // eslint-disable-next-line no-console
+          console.log(e)
+        })
     }
   }
 }

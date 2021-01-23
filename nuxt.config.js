@@ -40,7 +40,24 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: 'AIzaSyD1tGHWscInaAjYRoDTWu8dbLp4yf0FjoA',
+          authDomain: 'orion-smg.firebaseapp.com',
+          databaseURL: 'https://orion-smg-default-rtdb.firebaseio.com',
+          projectId: 'orion-smg',
+          storageBucket: 'orion-smg.appspot.com',
+          messagingSenderId: '689916496964',
+          appId: '1:689916496964:web:9edf78556de496faf9c011'
+        },
+        services: {
+          firestore: true // Just as example. Can be any other service.
+        }
+      }
+    ]
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
