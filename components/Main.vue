@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <div class="bendera" />
-    <div class="kartu col d-flex flex-wrap justify-content-around">
+  <div class="relatif">
+    <img class="bendera" src="../assets/bendera.png" alt="flags">
+    <div class="kartu">
       <div class="card">
-        <img class="rounded" src="../assets/Upacara.jpg" alt="Upacara">
+        <img class="rounded" src="../assets/Upacara.jpg" alt="Upacara" width="340px" height="100%">
         <div class="p-1 card-body text-center">
           <p class="card-text">
             Dikibarkanya Bendera Merah Putih di Gedung PBB
@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="card">
-        <img class="rounded" src="../assets/Rapat.jpg" alt="Rapat">
+        <img class="rounded" src="../assets/Rapat.jpg" alt="Rapat" width="340px" height="100%">
         <div class="pt-4 card-body text-center">
           <p class="card-text">
             Dibentuknya ASEAN dalam Deklarasi Bangkok
@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="card">
-        <img class="rounded" src="../assets/GNB.jpg" alt="GNB">
+        <img class="rounded" src="../assets/GNB.jpg" alt="GNB" width="340px" height="100%">
         <div class="pt-4 card-body text-center">
           <p class="card-text">
             Para pemrakarsa GNB dalam Konferensi Beograd
@@ -36,10 +36,10 @@
         </div>
       </div>
     </div>
-    <div class="karti col flex-wrap justify-content-around ">
+    <div class="karti">
       <div class="card">
-        <img class="rounded" src="../assets/Jokowi.jpg" alt="Jokowi">
-        <div class="pt-4 card-body text-center">
+        <img class="rounded" src="../assets/Jokowi.jpg" alt="Jokowi" width="340px" height="100%">
+        <div class="pt-3 card-body text-center">
           <p class="pt-2 card-text">
             Pengeriman Pasukan Garuda Sebagai Misi Pedamaian PBB
           </p>
@@ -49,8 +49,8 @@
         </div>
       </div>
       <div class="card">
-        <img class="rounded" src="../assets/Asean.jpg" alt="Asean">
-        <div class="pt-4 card-body text-center">
+        <img class="rounded" src="../assets/Asean.jpg" alt="Asean" width="340px" height="100%">
+        <div class="pt-3 card-body text-center">
           <p class="pt-2 card-text">
             Kerjasama Indonesia dalam ASEAN SUMMIT
           </p>
@@ -60,8 +60,8 @@
         </div>
       </div>
       <div class="card">
-        <img class="rounded" src="../assets/KTT.jpg" alt="KTT">
-        <div class="pt-4 card-body text-center">
+        <img class="rounded" src="../assets/KTT.jpg" alt="KTT" width="340px" height="100%">
+        <div class="pt-3 card-body text-center">
           <p class="pt-2 card-text">
             Pertemuan Tingkat Mentri Persiapan KTT GNB
           </p>
@@ -81,37 +81,47 @@ export default {
 </script>
 
 <style scoped>
+.relatif{
+  position: relative;
+}
 .bendera {
-    background: url("../assets/bendera.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(4px);
-    height: 55rem;
+  width: 100%;
+  height: 890px;
+  filter: blur(4px);
 }
 .kartu {
-    position: absolute;
-    top: 23%;
+  display: flex;
+  position: absolute;
+  top: 5%;
+  width: 90%;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .karti {
-    display: flex;
-    position: absolute;
-    top: 83%;
-    height: 342px;
+  display: flex;
+  position: absolute;
+  top: 55%;
+  width: 90%;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 p {
     margin: 0px;
 }
 .card {
-    width: 20rem;
+    width: 340px;
+    height: 100%;
     background: rgba(255, 255, 255, 0.6)
 }
 @media (max-width: 575.98px) {
   .bendera {
-    height: 80rem;
+    height: 1300px;
   }
   .kartu {
-    top: 15%;
+    flex-direction: column;
+    align-items: center;
   }
   .karti {
     display: none;

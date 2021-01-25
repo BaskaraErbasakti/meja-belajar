@@ -9,7 +9,7 @@
     <div class="lengkung kotak1 container pt-3">
       <div>
         <p class="par1 text-justify">
-          Melihat situasi ditengah Pandemi, dimana tidak memungkinkan untuk belajar secara tatap muka, kami berniat memberikan model pembelajaran jarak jauh yang dapat diakses dengan mudah oleh siapa saja. Dibentuknya Meja Belajar ini, merupakan bentuk inovasi bari dalam belajar.
+          Melihat situasi ditengah Pandemi, dimana tidak memungkinkan untuk belajar secara tatap muka, kami berniat memberikan model pembelajaran jarak jauh yang dapat diakses dengan mudah oleh siapa saja. Dibentuknya Meja Belajar ini, merupakan bentuk inovasi baru dalam belajar.
         </p>
         <p class="par2 text-justify">
           Kami berupaya mewujudkan satu tujuan : tetap dapat bersekolah dan belajar dimanapun dan kapanpun.
@@ -17,7 +17,7 @@
       </div>
       <div>
         <p class="par1 text-justify mb-0">
-          Kami berharap dengan adanya Meja Belajar ini dapat ikut berkontribusi secara positif bagi fokus pemerintah dibidang pendidikan, untuk mengembangkan kualitas sember daya manusia Indonesai, merdeka belajar, dan memberikan kesempatan yang sama kepada siapaun dan dimanapun untuk mendapatkan ilmu pengetahuan. Kami akan terus berusaha untuk mengembangkan dan meningkatkan kualitas materi kami demi mewujudkan
+          Kami berharap dengan adanya Meja Belajar ini dapat ikut berkontribusi secara positif bagi fokus pemerintah dibidang pendidikan, untuk mengembangkan kualitas sumber daya manusia Indonesai, merdeka belajar, dan memberikan kesempatan yang sama kepada siapapun dan dimanapun untuk mendapatkan ilmu pengetahuan. Kami akan terus berusaha untuk mengembangkan dan meningkatkan kualitas materi kami demi mewujudkan
         </p>
         <p class="par2">
           #Indonesiaterusbelajar

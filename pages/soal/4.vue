@@ -6,55 +6,55 @@
       </h1>
     </div>
     <div class="mt-3">
-      <p>Salah satu alasan pentingnya perjanjian internasional dalam melakukan hubungan dengan negara lain adalah ...</p>
+      <p>Hubungan antarbangsa merupakan salah satu hubungan yang sangat mutlak diperlukan. Dalam membina hubungan dan kerjasama dengan bangsa lain harus menerapkan prinsip ...</p>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.a}" @click="salah('a')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.a}" @click="benar('a')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           A
         </h1>
         <p class="kalimat d-flex align-items-center" :style="{color : warni.a}">
-          Lebih menjamin adanya kepastian hukum
+          Menghormati kedaulatan dan tidak melakukan intervensi
         </p>
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.b}" @click="salah('b')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.b}" @click="salah('b')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           B
         </h1>
         <p class="kalimat d-flex align-items-center" :style="{color : warni.b}">
-          Menghormati kedaulatan masing-masing negara
+          Menjunjung tinggi harkat dan martabat negara yang berdaulat
         </p>
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.c}" @click="salah('c')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.c}" @click="salah('c')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           C
         </h1>
         <p class="kalimat d-flex align-items-center" :style="{color : warni.c}">
-          Meningkatkan kerja sama dalam berbagai bidang
+          Meningkatkan derajat negara persemakmuran di seluruh dunia
         </p>
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.d}" @click="benar('d')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.d}" @click="salah('d')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           D
         </h1>
         <p class="kalimat d-flex align-items-center" :style="{color : warni.d}">
-          Mewujukan tatanan masyarakat dunia yang legal
+          Mengusir penjajah yang menganggu kedaulatan suatu negara
         </p>
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :style="{backgroundColor : warna.e}" :disabled="isDisabled" @click="salah('e')">
+      <button class="pilih d-flex align-items-center container" :style="{backgroundColor : warna.e}" :disabled="isDisabled" @click="salah('e')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           E
         </h1>
         <p class="kalimat d-flex align-items-center" :style="{color : warni.e}">
-          Menumbuhkan kesungguhan dari masing-masing negara
+          Menggalang negara kuat untuk membentuk pakta pertahanan
         </p>
       </button>
     </div>

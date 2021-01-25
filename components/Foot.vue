@@ -11,7 +11,7 @@
         <p>tulisakan cita-cita yang ingin kamu capai</p>
         <NuxtLink to="/cita-cita">
           <button class="rounded-pill mt-4 border-0">
-            <h2 class="mx-4 green ">
+            <h2 class="mx-4 mt-2 green">
               Tulis di sini
             </h2>
           </button>
@@ -66,8 +66,8 @@ button {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .mli {
-  margin-right: 30px;
-  margin-left: 160px;
+  margin-right: 0px;
+  margin-left: 8%;
 }
 .green {
   color: #22A6B3;
@@ -77,7 +77,7 @@ button {
 }
 @media (max-width: 575.98px) {
   .mli {
-    margin-left: 40px;
+    margin-left: 0px;
     margin-top: 30px;
   }
   .cita {
@@ -85,9 +85,9 @@ button {
   }
   .winners {
     margin-top: 20px;
-    margin-left: 25px;
     width: 320px;
     height: 190px;
+    margin-left: 0px;
   }
   .quote {
     font-size: 40px;

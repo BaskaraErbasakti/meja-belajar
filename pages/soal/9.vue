@@ -6,10 +6,10 @@
       </h1>
     </div>
     <div class="mt-3">
-      <p>ASEAN terdiri dipelopori oleh 5 negara di Asia Tenggara. Siapakah negara pendiri ASEAN ?</p>
+      <p>Berdirinya ASEAN dipelopori oleh 5 negara di Asia Tenggara. Siapakah negara pendiri ASEAN ?</p>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.a}" @click="salah('a')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.a}" @click="salah('a')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           A
         </h1>
@@ -19,7 +19,7 @@
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.b}" @click="salah('b')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.b}" @click="salah('b')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           B
         </h1>
@@ -29,7 +29,7 @@
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.c}" @click="salah('c')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.c}" @click="salah('c')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           C
         </h1>
@@ -39,7 +39,7 @@
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.d}" @click="benar('d')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.d}" @click="benar('d')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           D
         </h1>
@@ -49,7 +49,7 @@
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :style="{backgroundColor : warna.e}" :disabled="isDisabled" @click="salah('e')">
+      <button class="pilih d-flex align-items-center container" :style="{backgroundColor : warna.e}" :disabled="isDisabled" @click="salah('e')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           E
         </h1>

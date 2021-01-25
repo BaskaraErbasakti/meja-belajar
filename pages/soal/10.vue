@@ -6,55 +6,55 @@
       </h1>
     </div>
     <div class="mt-3">
-      <p>Perwakilan dari negara Indonesia dalam penanda tangan Deklarasi Bangkok adalah ...</p>
+      <p>Gerakan Non-Blok nerupakan bentuk aksi dari ...</p>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.a}" @click="salah('a')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.a}" @click="benar('a')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           A
         </h1>
         <p class="kalimat d-flex align-items-center" :style="{color : warni.a}">
-          Ki Hajar Dewantara
+          KAA
         </p>
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.b}" @click="benar('b')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.b}" @click="salah('b')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           B
         </h1>
         <p class="kalimat d-flex align-items-center" :style="{color : warni.b}">
-          Adam Malik
+          Konfrensi Kolombo
         </p>
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.c}" @click="salah('c')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.c}" @click="salah('c')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           C
         </h1>
         <p class="kalimat d-flex align-items-center" :style="{color : warni.c}">
-          Sukarni
+          Politik bebas aktif
         </p>
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.d}" @click="salah('d')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.d}" @click="salah('d')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           D
         </h1>
         <p class="kalimat d-flex align-items-center" :style="{color : warni.d}">
-          Megawati
+          Dasasila Bandung
         </p>
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :style="{backgroundColor : warna.e}" :disabled="isDisabled" @click="salah('e')">
+      <button class="pilih d-flex align-items-center container" :style="{backgroundColor : warna.e}" :disabled="isDisabled" @click="salah('e')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           E
         </h1>
         <p class="kalimat d-flex align-items-center" :style="{color : warni.e}">
-          Ir. Soekarno
+          Piagam Atlantik
         </p>
       </button>
     </div>

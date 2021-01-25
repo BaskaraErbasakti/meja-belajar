@@ -9,7 +9,7 @@
       <p>Contoh pelaksanaan politik luar negri Republik Indonesia yang bebas aktif berdasarkan Pancasila adalah ...</p>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.a}" @click="salah('a')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.a}" @click="salah('a')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           A
         </h1>
@@ -19,7 +19,7 @@
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.b}" @click="benar('b')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.b}" @click="benar('b')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           B
         </h1>
@@ -29,17 +29,17 @@
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.c}" @click="salah('c')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.c}" @click="salah('c')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           C
         </h1>
         <p class="kalimat d-flex align-items-center" :style="{color : warni.c}">
-          Menghimpun negara yang sedangg berkembang
+          Menghimpun negara yang sedang berkembang
         </p>
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :disabled="isDisabled" :style="{backgroundColor : warna.d}" @click="salah('d')">
+      <button class="pilih d-flex align-items-center container" :disabled="isDisabled" :style="{backgroundColor : warna.d}" @click="salah('d')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           D
         </h1>
@@ -49,12 +49,12 @@
       </button>
     </div>
     <div class="mt-4">
-      <button class="pilih d-flex container" :style="{backgroundColor : warna.e}" :disabled="isDisabled" @click="salah('e')">
+      <button class="pilih d-flex align-items-center container" :style="{backgroundColor : warna.e}" :disabled="isDisabled" @click="salah('e')">
         <h1 class="abjad d-flex justify-content-center align-items-center">
           E
         </h1>
         <p class="kalimat d-flex align-items-center" :style="{color : warni.e}">
-          Melibatkan diri dalam satu bluk negara-negara di dunia
+          Melibatkan diri dalam satu blok negara-negara di dunia
         </p>
       </button>
     </div>

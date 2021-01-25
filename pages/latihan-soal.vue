@@ -6,7 +6,7 @@
       </h1>
     </div>
     <div class="spasi2 poin container">
-      <div>
+      <div class="d-flex flex-column justify-content-center">
         <h3 class="my-3">
           1. Pilihlah jawaban yang paling benar dengan cara klik jawaban yang kamu pilih.
         </h3>
@@ -14,10 +14,7 @@
           2. Baca dengan cermat pernyataan yang diberikan sebelum menjawab.
         </h3>
         <h3 class="my-3">
-          3.  Sebelum melanjutkan ke pertanyaan selanjutnya, kamu masih bisa mengubah pilihanmu.
-        </h3>
-        <h3 class="my-3">
-          4. Selamat mengerjakan.
+          3. Selamat mengerjakan.
         </h3>
         <NuxtLink to="/soal/1">
           <div class="d-flex justify-content-center mt-4" @click="reset">

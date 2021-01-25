@@ -9,7 +9,7 @@
           Cita-cita atau harapan adalah kunci yang akan kamu capai di masa depan. Cita-cita mu dapat memberikan motifasi diri sehingga setiap sikap, perilaku dan tindakanmu dapat diusahakan demi mencapai cita-citamu di kemudian hari <span class="kuning">#JanganTakutBermimipi.</span>
         </p>
         <p class="parap">
-          Tetap fokus pada tujuan mu dan raihlah cita-cita terbesarmu, motifasi terbesar adalah dirimu sendiri. <span class="kuning">Aku bisa, Pasti Bisa, Selalu Bisa.</span>
+          Tetap fokus pada tujuan mu dan raihlah cita-cita terbesarmu, motivasi terbesar adalah dirimu sendiri. <span class="kuning">Aku bisa, Pasti Bisa, Selalu Bisa.</span>
         </p>
       </div>
       <div class="d-flex justify-content-center">
