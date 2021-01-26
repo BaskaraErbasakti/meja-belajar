@@ -6,7 +6,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Perkenalkan nama saya Eva Dwi Anitasari mahasiwa semester akhir di Universitas Ivet Semarang. Saya berusaha mengembangkan media pembelajaran yang baru dan lebih menarik' },
+      { hid: 'keywords', name: 'keywords', content: 'meja belajar, eva dwi anitasari, belajar online, Peran Indonesia' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
