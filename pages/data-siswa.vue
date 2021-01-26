@@ -58,6 +58,7 @@ export default {
         res.forEach((element) => {
           rei.push(element.data())
         }); this.siswa = rei
+        this.siswa.sort((a, b) => (a.waktu > b.waktu) ? -1 : 1)
       // eslint-disable-next-line no-console
       }, (err) => { console.log(err) }
     )

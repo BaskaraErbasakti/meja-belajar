@@ -51,6 +51,9 @@
           </div>
         </div>
       </form>
+      <p class="kosong text-danger" :style="{display : merah ? 'none' : 'block'}">
+        *Harap masukkan nama
+      </p>
       <div class="d-flex justify-content-center">
         <button class="tombol border-0" @click="writeToFirestore">
           Masuk
@@ -64,6 +67,7 @@
 export default {
   data () {
     return {
+      merah: true,
       masuk: {
         nama: '',
         umur: 17,
@@ -72,8 +76,19 @@ export default {
       }
     }
   },
+  watch: {
+    'masuk.nama' () {
+      if (this.masuk.nama.length >= 1) {
+        this.merah = true
+      }
+    }
+  },
   methods: {
     writeToFirestore () {
+      if (this.masuk.nama === '') {
+        this.merah = false
+        return
+      }
       const identitas = {
         nama: this.masuk.nama,
         umur: this.masuk.umur,
@@ -215,6 +230,9 @@ export default {
 .umur {
   font-size: 22px;
 }
+.kosong {
+  font-size: 150%;
+}
 @media (max-width: 575.98px) {
   .confirm {
     display: none;
@@ -229,6 +247,9 @@ export default {
   }
   .labeling {
     font-size: 25px;
+  }
+  .kosong {
+    font-size: 120%;
   }
 }
 </style>
