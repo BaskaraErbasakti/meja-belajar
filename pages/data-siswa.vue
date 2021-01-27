@@ -57,8 +57,16 @@ export default {
         const rei = []
         res.forEach((element) => {
           rei.push(element.data())
-        }); this.siswa = rei
+        })
+        rei.forEach((index) => {
+          index.waktu = Date.parse(index.waktu)
+        })
+        this.siswa = rei
         this.siswa.sort((a, b) => (a.waktu > b.waktu) ? -1 : 1)
+        this.siswa.forEach((index) => {
+          const tanggal = new Date(index.waktu)
+          index.waktu = tanggal.toString()
+        })
       // eslint-disable-next-line no-console
       }, (err) => { console.log(err) }
     )

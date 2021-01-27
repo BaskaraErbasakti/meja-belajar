@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Caveat Brush;
+    src: url(~assets/font/CaveatBrush-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Delius;
+    src: url(~assets/font/Delius-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Oxygen;
+    src: url(~assets/font/Oxygen-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Ramabhadra;
+    src: url(~assets/font/Ramabhadra-Regular.ttf) format('truetype');
+}

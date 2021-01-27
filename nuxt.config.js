@@ -10,17 +10,13 @@ export default {
       { hid: 'keywords', name: 'keywords', content: 'meja belajar, eva dwi anitasari, belajar online, Peran Indonesia' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { href: 'https://fonts.gstatic.com', rel: 'preconnect' },
-      { href: 'https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap', rel: 'stylesheet' },
-      { href: 'https://fonts.googleapis.com/css2?family=Delius&display=swap', rel: 'stylesheet' },
-      { href: 'https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap', rel: 'stylesheet' },
-      { href: 'https://fonts.googleapis.com/css2?family=Oxygen&display=swap', rel: 'stylesheet' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
+    '~global.css'
 
   ],
 
