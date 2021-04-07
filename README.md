@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 # belajar-nuxtjs
+<<<<<<< HEAD
 aplikasi tambah pintar
+=======
+aplikasi meja
+>>>>>>> 2a644e8ad7cd50f9a2669588c020bdc292b36850
 ## Build Setup
 
 ```bash
