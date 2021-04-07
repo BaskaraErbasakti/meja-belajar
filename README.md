@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # belajar-nuxtjs
-
+aplikasi
 ## Build Setup
 
 ```bash
