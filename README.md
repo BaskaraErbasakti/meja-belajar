@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # belajar-nuxtjs
-aplikasi tambah pintar
+aplikasi tambah pintar bangeeeeeeeet
 ## Build Setup
 
 ```bash
