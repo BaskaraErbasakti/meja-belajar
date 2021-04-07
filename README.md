@@ -1,6 +1,8 @@
 <<<<<<< HEAD
 # belajar-nuxtjs
+
 latihan git
+
 ## Build Setup
 
 ```bash
