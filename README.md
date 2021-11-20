@@ -1,6 +1,9 @@
-<<<<<<< HEAD
 # belajar-nuxtjs
-aplikasi tambah pintar bangeeeeeeeet
+aplikasi untuk skripsian guna meningkatkan daya tarik belajar online
+
+## preview website
+![alt text](https://github.com/BaskaraErbasakti/meja-belajar/blob/master/static/meja-belajar.png?raw=true)
+
 ## Build Setup
 
 ```bash
@@ -19,6 +22,4 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-=======
-# meja-belajar
->>>>>>> 81fb9e7fab4d104b2d723bd809e608649c43b185
+
